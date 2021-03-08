@@ -35,13 +35,13 @@ Interpretation:
 > Activation function => Sigmoid (0,1)
 > Decision boundary => threshold = 0.5 (1 if y >0.5, 0 if y <0.5)
 > Cost function => Mean squared error (-y * log(h(x) - (1 - y) * log (1 - h(x))
->   Gradient descent => w = w ñ (learning rate* dw*T) & b = b ñ (learning rate* db)
-W ñ weight, b ñ bias.
+>   Gradient descent => w = w ‚Äì (learning rate* dw*T) & b = b ‚Äì (learning rate* db)
+W ‚Äì weight, b ‚Äì bias.
 * Gradient descent updates the weights if cost function converges (minimize). There will be global minimum that mean where ever the point gradient descent starts it always converges at same point.
 11. Predict the class 1 or 0.
-12. Root mean Square error is calculated and RMSE is 0.44
+12. Root mean Square error is calculated and RMSE is 0.33
 13. Confusion matrix is build based on test set and predicted test set. Classification report is generated. Accuracy is around 89%. 
-14. Decision tree model is used with criterion ìentropyî from Sklearn.
+14. Decision tree model is used with criterion ‚Äúentropy‚Äù from Sklearn.
 15. Then we used listedColormap for output plot. 
 16. Conclusion: Models build from scratch and from Sklearn classifies the same.
 
